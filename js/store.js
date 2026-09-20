@@ -13,7 +13,7 @@ const STORAGE_KEYS = {
 
 // Bump whenever DEFAULT_* content below changes, so returning browsers
 // with older cached localStorage data pick up the new official content.
-const CURRENT_DATA_VERSION = '15';
+const CURRENT_DATA_VERSION = '16';
 
 // --- Generic dot-path helpers (used to read/write nested PAGE_CONTENT fields) ---
 function getByPath(obj, path) {
@@ -157,17 +157,17 @@ const DEFAULT_DOCUMENTS = [
     fileUrl: "assets/docs/Legal_Counsel_Appointment_06Sep2026.pdf",
     status: "active"
   },
-  {
-    id: "doc-07",
-    title: "Redevelopment Feasibility Report",
-    category: "Plan",
-    refNo: "PMC Report",
-    date: "2026-08-01",
-    displayDate: "1 Aug 2026",
-    description: "Feasibility Report for the proposed redevelopment, submitted by the Society's Project Management Consultant on 1 August 2026 and placed before members at SGBM 3.",
-    fileUrl: "assets/docs/Redevelopment_Feasibility_Report.pdf",
-    status: "active"
-  },
+  // {
+  //   id: "doc-07",
+  //   title: "Redevelopment Feasibility Report",
+  //   category: "Plan",
+  //   refNo: "PMC Report",
+  //   date: "2026-08-01",
+  //   displayDate: "1 Aug 2026",
+  //   description: "Feasibility Report for the proposed redevelopment, submitted by the Society's Project Management Consultant on 1 August 2026 and placed before members at SGBM 3.",
+  //   fileUrl: "assets/docs/Redevelopment_Feasibility_Report.pdf",
+  //   status: "active"
+  // },
   {
     id: "doc-04",
     title: "SGBM 1 Minutes - 1st February 2026",
