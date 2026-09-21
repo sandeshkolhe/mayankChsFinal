@@ -13,7 +13,7 @@ const STORAGE_KEYS = {
 
 // Bump whenever DEFAULT_* content below changes, so returning browsers
 // with older cached localStorage data pick up the new official content.
-const CURRENT_DATA_VERSION = '16';
+const CURRENT_DATA_VERSION = '17';
 
 // --- Generic dot-path helpers (used to read/write nested PAGE_CONTENT fields) ---
 function getByPath(obj, path) {
