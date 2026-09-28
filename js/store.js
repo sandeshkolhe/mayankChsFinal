@@ -13,7 +13,7 @@ const STORAGE_KEYS = {
 
 // Bump whenever DEFAULT_* content below changes, so returning browsers
 // with older cached localStorage data pick up the new official content.
-const CURRENT_DATA_VERSION = '17';
+const CURRENT_DATA_VERSION = '18';
 
 // --- Generic dot-path helpers (used to read/write nested PAGE_CONTENT fields) ---
 function getByPath(obj, path) {
@@ -358,6 +358,7 @@ const DEFAULT_PAGE_CONTENT = {
       complianceLine: "Registered under the Maharashtra Co-operative Societies Act, 1960.",
       navHeading: "Navigation",
       officeHeading: "Registered Office",
+      developerCredit: "Managed and developed by 'Shree Engineers'",
       bottomTagline: "Official Redevelopment Information Portal"
     }
   },
